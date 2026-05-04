@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000000, #434343);
+  color: rgb(255, 255, 255);
+}
+h1 {
+  justify-self: start;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+a:hover {
+  color: #adb5bd;
+}
+a {
+  width: auto;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+a:hover {
+  box-shadow: 0 0 10px rgba(255, 107, 107, 0.7);
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  padding-left: 60px;
+}
+.me {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  background-color: #4a4a4a;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  height: max-content;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+.me ul {
+  list-style: none;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.my-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  line-height: 22px;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+.header-nav {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.main-body {
+  margin: 0 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  padding: 20px;
+}
+figure img {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 6px solid #b6b3b3;
+  object-fit: cover;
+}
+figure figcaption {
+  margin-left: 5px;
+  font-size: 16px;
+}
+.more-about-me,
+.hobbies,
+.top-courses,
+#sidebar {
+  padding: 20px;
+  border-radius: 20px;
+}
+.more-about-me,
+.hobbies {
+  margin-bottom: 30px;
+}
+ol,
+ul {
+  margin-left: 30px;
+  font-size: 18px;
+}
+li,
+h2 {
+  margin-bottom: 10px;
+}
+.me,
+section,
+#sidebar {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#sidebar {
+  max-width: 400px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  background-color: #4a4a4a;
+}
+#sidebar dl dt {
+  text-align: center;
+}
