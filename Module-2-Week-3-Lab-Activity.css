@@ -42,7 +42,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 4fr;
   align-items: center;
-  background-color: #4a4a4a;
+  background: linear-gradient(to right, #4a4a4a, #434343, #313131);
   margin-bottom: 25px;
   border-radius: 20px;
   height: max-content;
@@ -127,10 +127,24 @@ footer {
   width: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 55px;
   align-items: center;
   background-color: #4a4a4a;
+  padding-top: 60px;
 }
-#sidebar dl dt {
+#sidebar dl dt,
+dd {
   text-align: center;
+}
+dd {
+  margin-bottom: 60px;
+}
+dd:last-child {
+  margin-bottom: 0;
+}
+dt {
+  margin-bottom: 10px;
+}
+.more-about-me p:nth-child(2) {
+  margin-bottom: 10px;
 }
